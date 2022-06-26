@@ -1,0 +1,85 @@
+<!Doctype html>
+<html>
+	<head>
+		<title> Contato </title>
+		<meta charset="utf-8">
+		<link rel ="icon" type="image/jpg" href="img/browser_internet.png"/>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body bgcolor="#BC8F8F">
+	<br/><br/><br/><br/>
+		<center><table border="0">
+		<tr>
+		<td><h2><a href="index3.html">Home</a></h2></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td><h2><a href="sobre.html">Sobre</a></h2></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td><h2><a href="cultivo.html">Cultivo</a></h2></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td><h2><a href="beneficios.html">Beneficios</a></h2></td>
+		<td></td>
+		<td></td>
+		<td><h2><a href="receita.html">Receita</a></h2></td>	
+		<td></td>
+		<td></td>
+		<td><h2><a href="contato.html">Contato</a></h2></td>	
+	</tr>
+	</table></center>
+	<br/><br/><br/><br/><br/><br/>
+<script language="javascript" type="text/javascript">
+	function validar() {
+    var nome = form1.nome.value;   
+	var fone = form1.fone.value;
+	var mail = form1.mail.value;
+	if (nome == "") {
+	   alert('Por favor, Preencha o campo com seu nome!');
+	   form1.nome.focus();
+	return false;
+	}
+	if (nome.length < 5) {
+	    alert('Digite seu nome completo');
+	    form1.nome.focus();
+	return false;
+	}
+	if(fone == ""){
+		alert('Preencha o campo com seu telefone')
+		form1.fone.focus();
+	return false;
+	}
+	if(mail == ""){
+		alert('Preencha o campo com seu email')
+		form1.mail.focus();
+	return false;
+	}
+ 
+}
+   
+</script> 
+    		<center><h1><mark> Fale conosco </mark></h1></center><br><hr><br><br><br><br><br><br>
+				<center><form name="form1" action="alunoconfirm.html" method="post">  
+                        Nome: <input type="text" name="nome"><br /><br /><br>
+						Telefone: <input type="tel"  name="fone"><br /><br /><br>
+                        Email:<input type="text" name="mail"><br/><br/><br/>
+							
+							Digite sua mensagem:  <textarea rows=“605” name="comentario">  </textarea>
+						<br><br><input type="submit"  onclick="return validar()" value="ENVIAR">
+                        <input type="reset"  name="limpa" value="Limpar"><br><br><br>
+						
+                       
+				</form></center>
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><hr><br>
+	<h5><center> enzo vianna montanaro 2022 copy&- todos os direitos reservados</center></h5>
+</body>
+</html>
+
+
+
+
+
+
